@@ -11,8 +11,7 @@ var rules4 = {
 
 module.exports = {
     env: {
-        es6: true,
-        commonjs: true
+        node: true
     },
     extends: 'eslint:recommended',
     rules: rules4
