@@ -1,0 +1,22 @@
+{
+  "name": "@drom/eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/eslint-config.git"
+  },
+  "author": "drom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/eslint-config/issues"
+  },
+  "homepage": "https://github.com/drom/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0"
+  }
+}
