@@ -20,6 +20,6 @@
     "eslint": "^4.8.0"
   },
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": ">= 2"
   }
 }
