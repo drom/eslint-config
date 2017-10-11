@@ -205,7 +205,7 @@ var rules = {
     // 'no-with': 'off',
     // 'nonblock-statement-body-position': 'off',
     // 'object-curly-newline': 'off',
-    'object-curly-spacing': [1, 'never'],
+    // 'object-curly-spacing': [1, 'never'],
     // 'object-property-newline': 'off',
     // 'object-shorthand': 'off',
     // 'one-var': 'off',
