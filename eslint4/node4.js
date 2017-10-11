@@ -11,7 +11,7 @@ var rules = {
     // 'arrow-spacing': 'off',
     'block-scoped-var': 1,
     'block-spacing': [1, 'always'],
-    'brace-style': 1,
+    'brace-style': [1, '1tbs', {allowSingleLine: true}],
     // 'callback-return': 'off',
     camelcase: 1,
     // 'capitalized-comments': 'off',
