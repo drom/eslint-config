@@ -2,9 +2,9 @@
   "name": "@drom/eslint-config",
   "version": "0.1.3",
   "description": "ESLint config",
-  "main": "index.js",
+  "main": "node4.js",
   "scripts": {
-    "test": "eslint -c index.js *.js"
+    "test": "eslint -c node0.js *.js"
   },
   "repository": {
     "type": "git",
