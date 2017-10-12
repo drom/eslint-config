@@ -127,7 +127,7 @@ var rules = {
     // 'no-loop-func': 'off',
     // 'no-magic-numbers': 'off',
     // 'no-mixed-operators': 'off',
-    // 'no-mixed-requires': 'off',
+    'no-mixed-requires': 2,
     'no-mixed-spaces-and-tabs': 'error',
     // 'no-multi-assign': 'off',
     // 'no-multi-spaces': 'off',
