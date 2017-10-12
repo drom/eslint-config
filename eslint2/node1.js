@@ -29,7 +29,7 @@ var rules = {
     // 'dot-location': 'off',
     // 'dot-notation': 'off',
     // 'eol-last': 'off',
-    // eqeqeq: 'off',
+    eqeqeq: 2,
     //// 'for-direction': 1,
     // 'func-call-spacing': 'off',
     // 'func-name-matching': 'off',
