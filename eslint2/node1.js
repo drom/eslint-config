@@ -127,7 +127,7 @@ var rules = {
     // 'no-loop-func': 'off',
     // 'no-magic-numbers': 'off',
     // 'no-mixed-operators': 'off',
-    'no-mixed-requires': 2,
+    'no-mixed-requires': 1,
     'no-mixed-spaces-and-tabs': 'error',
     // 'no-multi-assign': 'off',
     // 'no-multi-spaces': 'off',
@@ -258,7 +258,35 @@ var rules = {
     // yoda: 'off',
 };
 
+var parserOptions = {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+        arrowFunctions: false, // - enable arrow functions
+        binaryLiterals: true, // - enable binary literals
+        blockBindings: true, // - enable let and const (aka block bindings)
+        classes: true, //  - enable classes
+        defaultParams: false, // - enable default function parameters
+        destructuring: false, // - enable destructuring
+        forOf: false, // - enable for-of loops
+        generators: false, // - enable generators
+        modules: false, // - enable modules and global strict mode
+        objectLiteralComputedProperties: false, // - enable computed object literal property names
+        objectLiteralDuplicateProperties: false, // - enable duplicate object literal properties in strict mode
+        objectLiteralShorthandMethods: false, // - enable object literal shorthand methods
+        objectLiteralShorthandProperties: false, // - enable object literal shorthand properties
+        octalLiterals: false, // - enable octal literals
+        regexUFlag: false, // - enable the regular expression u flag
+        regexYFlag: false, // - enable the regular expression y flag
+        restParams: false, // - enable the rest parameters
+        spread: false, // - enable the spread operator for arrays
+        superInFunctions: false, // - enable super references inside of functions
+        templateStrings: true, // - enable template strings
+        unicodeCodePointEscapes: false, // - enable code point escapes
+    }
+};
+
 module.exports = {
-    env: {node: true, es6: true},
-    rules: rules
+    env: {node: true},
+    rules: rules,
+    parserOptions: parserOptions
 };
