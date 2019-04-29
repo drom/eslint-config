@@ -51,7 +51,7 @@ var rules = {
     // 'key-spacing': 'off',
     // 'keyword-spacing': 'off',
     // 'line-comment-position': 'off',
-    'linebreak-style': [2, 'unix'],
+    // 'linebreak-style': [2, 'unix'],
     // 'lines-around-comment': 'off',
     // 'lines-around-directive': 'off',
     // 'lines-between-class-members': 'off',
