@@ -281,7 +281,7 @@ var parserOptions = {
         spread: false, // - enable the spread operator for arrays
         superInFunctions: false, // - enable super references inside of functions
         templateStrings: true, // - enable template strings
-        unicodeCodePointEscapes: false, // - enable code point escapes
+        unicodeCodePointEscapes: false // - enable code point escapes
     }
 };
 
