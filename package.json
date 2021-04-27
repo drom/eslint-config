@@ -4,7 +4,7 @@
   "description": "ESLint config",
   "main": "eslint4/node4.js",
   "scripts": {
-    "test": "eslint -c ./eslint2/node0.js eslint2 eslint4"
+    "test": "eslint -c ./eslint4/node4.js eslint2 eslint4 eslint7"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/drom/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^7.25.0"
   },
   "peerDependencies": {
     "eslint": ">= 2"
