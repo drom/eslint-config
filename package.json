@@ -2,9 +2,9 @@
   "name": "@drom/eslint-config",
   "version": "0.10.0",
   "description": "ESLint config",
-  "main": "eslint4/node4.js",
+  "main": "eslint8/node12.js",
   "scripts": {
-    "test": "eslint -c ./eslint4/node4.js eslint2 eslint4 eslint7"
+    "test": "eslint -c ./eslint4/node4.js eslint2 eslint4 eslint7 eslint8"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/drom/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^7.25.0"
+    "eslint": "^8.41.0"
   },
   "peerDependencies": {
     "eslint": ">= 2"
