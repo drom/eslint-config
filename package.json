@@ -1,6 +1,6 @@
 {
   "name": "@drom/eslint-config",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "ESLint config",
   "main": "eslint8/node12.js",
   "scripts": {
