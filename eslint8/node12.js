@@ -8,7 +8,11 @@ const rules = Object.assign(node4.rules, {
 });
 
 module.exports = {
-    env: {node: true, es6: true},
+    env: {
+        node: true,
+        es6: true,
+        es2020: true
+    },
     parserOptions: {
         ecmaVersion: 2020
     },
