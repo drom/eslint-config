@@ -6,6 +6,13 @@
   "scripts": {
     "test": "eslint -c ./eslint4/node4.js eslint2 eslint4 eslint7 eslint8"
   },
+  "files": [
+    "eslint2",
+    "eslint4",
+    "eslint7",
+    "eslint8",
+    "eslint9"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/drom/eslint-config.git"
