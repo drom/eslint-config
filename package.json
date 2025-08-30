@@ -2,7 +2,7 @@
   "name": "@drom/eslint-config",
   "version": "0.13.0",
   "description": "ESLint config",
-  "main": "eslint8/node12.js",
+  "main": "eslint9/node22.js",
   "scripts": {
     "test": "eslint -c ./eslint4/node4.js eslint2 eslint4 eslint7 eslint8"
   },
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/drom/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^8.41.0"
+    "@eslint/js": "^9.34.0",
+    "eslint": "^8.57.1",
+    "globals": "^16.3.0"
   },
   "peerDependencies": {
     "eslint": ">= 2"
